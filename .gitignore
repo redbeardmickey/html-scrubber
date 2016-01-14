@@ -1,0 +1,8 @@
+*.spec
+
+/test_site/
+/dist/
+/build/
+/__pycache__/
+
+.bash_profile
