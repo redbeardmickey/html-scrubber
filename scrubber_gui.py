@@ -1,6 +1,6 @@
 from tkinter import *
-from tkinter import ttk
-from tkinter.filedialog import askopenfilename
+# from tkinter import ttk
+# from tkinter.filedialog import askopenfilename
 from tkinter.filedialog import askdirectory
 import scrubber
 
