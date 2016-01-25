@@ -9,7 +9,7 @@ def scrub(file_name, flag):
 	for node in soup.find_all(class_=flag):
 		node.extract()
 
-	new_html = soup.prettify("utf-8")
+	new_html = soup.encode_contents(formatter="html")
 	with open(file_name, "wb") as file:
 		file.write(new_html)
 
@@ -30,4 +30,4 @@ def main(directory, flag):
 	return 'Finished!'
 
 if __name__ == "__main__":
-	main()
+	main('test_site', 'internalOnly')
