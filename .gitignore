@@ -1,6 +1,5 @@
 *.spec
 
-/test_site/
 /dist/
 /build/
 /__pycache__/
